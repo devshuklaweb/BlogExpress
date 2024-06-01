@@ -4,7 +4,8 @@ const router = express.Router(); //router
 
 
 router.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname,'templates/index.html'));
+    console.log(__dirname,'../templates/index.html');
+    res.sendFile(path.join(__dirname,'../templates/index.html'));
 })
 
 module.exports = router; //make export show it will be used in index.js
