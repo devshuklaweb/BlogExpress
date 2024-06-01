@@ -1,0 +1,11 @@
+{
+  "name": "blogexpress",
+  "version": "1.2.2",
+  "description": "Its my first blogs type of express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
