@@ -15,7 +15,7 @@ router.get('/blogs', (req, res) => {
     res.sendFile(path.join(__dirname, '../templates/blogHome.html'));
 })
 
-//show single blog
+//show single blog: http://localhost:3000/blogpost/second-b
 router.get('/blogpost/:slug', (req, res) => {
     myBlog = blogsdata.filter((e) => {
         return e.slug == req.params.slug
